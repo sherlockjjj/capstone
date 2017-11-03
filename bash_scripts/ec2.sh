@@ -20,7 +20,7 @@ fi
 # Can't proceed if jq still not detected
 if [ -z `which jq` ]; then
   echo "'jq' was still not detected. We use 'jq' to create the 'agile_data_science' key and to get the external hostname of the ec2 instance we create."
-  echo "Please install jq, or open the script './ec2.sh' and use manually, creating the file './agile_data_science.pem' manually."
+  echo "Please install jq, or open the script './ec2.sh' and use manually, creating the file './datawizard.pem' manually."
   echo "'jq' install instructions are available at https://github.com/stedolan/jq/wiki/Installation"
   echo ""
   echo "Goodbye!"
